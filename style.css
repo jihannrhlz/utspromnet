@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav ul li a {
+    color: black;
+    font-size: 18px;
+    font-family: Monserrat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+section {
+    padding: 64px 128px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
+}
+
+#container {
+    background-image: url('bulan.png');
+
+}
+
+#landing {
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+    width: 1000px;
+}
+
+.title {
+    font-size: 53px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc {
+    font-size: 27px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.btn-container {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 0.3em 1.4em;
+    font-size: 1.3em;
+    border: black solid 2px;
+    background-color: white;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-alt {
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+.title-about {
+    font-size: 53px;
+    font-weight: 700;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+}
+
+.desc-about {
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.row-col {
+    display: flex;
+}
+
+.col1{
+    margin-top: 0 auto;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 325px;
+}
+
+input{
+    display: flex;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    border: solid antiquewhite;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    background-color: aqua;
+    padding: 14px;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: center;
+    transition: all ease-in-out 175ms;
+    cursor: pointer;
+}
